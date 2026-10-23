@@ -41,24 +41,24 @@ echo 'Array awal: ("Peter"=>35, "Ben"=>37, "Joe"=>43)<br>';
 
 $c = $umur;
 asort($c);
-$hasil1 = array();
-foreach ($c as $k => $v) $hasil1[] = "$k=> $v";
-echo 'Hasil asort: ' . implode(', ', $hasil1) . '<br>';
+$res1 = array();
+foreach ($c as $k => $v) $res1[] = "$k=> $v";
+echo 'Hasil asort: ' . implode(', ', $res1) . '<br>';
 
 $d = $umur;
 ksort($d);
-$hasil2 = array();
-foreach ($d as $k => $v) $hasil2[] = "$k=> $v";
-echo 'Hasil ksort: ' . implode(', ', $hasil2) . '<br>';
+$res2 = array();
+foreach ($d as $k => $v) $res2[] = "$k=> $v";
+echo 'Hasil ksort: ' . implode(', ', $res2) . '<br>';
 
 $e = $umur;
 arsort($e);
-$hasil3 = array();
-foreach ($e as $k => $v) $hasil3[] = "$k=> $v";
-echo 'Hasil arsort: ' . implode(', ', $hasil3) . '<br>';
+$res3 = array();
+foreach ($e as $k => $v) $res3[] = "$k=> $v";
+echo 'Hasil arsort: ' . implode(', ', $res3) . '<br>';
 
 $f = $umur;
 krsort($f);
-$hasil4 = array();
-foreach ($f as $k => $v) $hasil4[] = "$k=> $v";
-echo 'Hasil krsort: ' . implode(', ', $hasil4) . '<br>';
+$res4 = array();
+foreach ($f as $k => $v) $res4[] = "$k=> $v";
+echo 'Hasil krsort: ' . implode(', ', $res4) . '<br>';

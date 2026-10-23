@@ -7,4 +7,3 @@
     <?php echo "Hallo World"; ?>
 </body>
 </html>
-
