@@ -28,5 +28,5 @@ if (isset($_POST['simpan'])) {
     Alamat: 
     <input type="text" name="alamat"><br><br>
     <button type="submit" name="simpan">Simpan</button>
-    <button type="reset" name="batal">Batal</button>
+    <a href="tampil.php"><button type="button">Batal</button></a>
 </form>
